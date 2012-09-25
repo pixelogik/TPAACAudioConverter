@@ -27,9 +27,9 @@
 - (IBAction)playConverted:(id)sender;
 - (IBAction)emailConverted:(id)sender;
 
-@property (nonatomic, retain) IBOutlet UIButton *convertButton;
-@property (nonatomic, retain) IBOutlet UIButton *playConvertedButton;
-@property (nonatomic, retain) IBOutlet UIButton *emailConvertedButton;
-@property (nonatomic, retain) IBOutlet UIProgressView *progressView;
-@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *spinner;
+@property (nonatomic, strong) IBOutlet UIButton *convertButton;
+@property (nonatomic, strong) IBOutlet UIButton *playConvertedButton;
+@property (nonatomic, strong) IBOutlet UIButton *emailConvertedButton;
+@property (nonatomic, strong) IBOutlet UIProgressView *progressView;
+@property (nonatomic, strong) IBOutlet UIActivityIndicatorView *spinner;
 @end
